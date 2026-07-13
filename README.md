@@ -56,12 +56,17 @@ The dataset contains patient medical information such as:
 * Pandas
 * Matplotlib
 * Scikit-learn
-* Random Forest
-* Dicision Tree
-* KNN
-* SVM
+* Pickle
+* Streamlit
 
 ---
+
+### Machine Learning Algorithms
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Decision Tree
+- Random Forest
 
 ## 📈 Machine Learning Workflow
 
@@ -109,11 +114,16 @@ heart-disease-prediction-ml/
 ├── notebook/
 │   └── heart-disease-prediction.ipynb
 ├── requirements.txt
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ## 🎯 Results
 
-The project compares multiple machine learning algorithms and selects the best-performing model based on evaluation metrics, providing reliable predictions for heart disease risk.
+# 🏆 Best Performing Model
+
+After comparing multiple algorithms, **SVM** achieved the highest overall performance and was selected as the final model.
 
 ---
 
