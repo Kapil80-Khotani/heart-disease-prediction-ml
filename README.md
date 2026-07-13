@@ -100,13 +100,15 @@ The models were evaluated using:
 ```
 heart-disease-prediction-ml/
 │
-│── heart.csv
-│
-├── heart-disease-prediction-modern.ipynb
-│
-├ trained_model.sav
-│
-├── heart_disease_prediction.py
+├── data/
+│   └── heart.csv
+├── src/
+│   └── heart_disease_prediction.py
+├── models/
+│   └── trained_model.sav
+├── notebook/
+│   └── heart-disease-prediction.ipynb
+├── requirements.txt
 ```
 
 ## 🎯 Results
